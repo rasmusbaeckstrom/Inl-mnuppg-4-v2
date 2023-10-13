@@ -43,14 +43,31 @@ small {
   font-size: 18px;
 }
 
+#todoInput:hover {
+  background-color: pink;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
 #todoGif {
   margin-top: 50px;
   width: 200px;
 }
 
 ul {
+  min-width: 500px;
+  max-width: 500px;
+  word-wrap: break-word;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
+  list-style-type: none;
+  padding-left: 1px;
+}
+
+li:hover {
+  background-color: pink;
+  opacity: 0.8;
+  transition: 0.5s;
 }
 
 p {
